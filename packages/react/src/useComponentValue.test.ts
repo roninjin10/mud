@@ -1,10 +1,9 @@
 import { renderHook, act } from "@testing-library/react-hooks";
+import type { World, Component } from "@latticexyz/recs";
 import {
-  World,
   Type,
   createWorld,
   defineComponent,
-  Component,
   createEntity,
   withValue,
   setComponent,

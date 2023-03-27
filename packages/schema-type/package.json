@@ -3,7 +3,8 @@
   "license": "MIT",
   "version": "1.41.0",
   "description": "SchemaType enum for various languages",
-  "main": "src/typescript/index.ts",
+  "main": "dist/typescript/index.js",
+  "types": "dist/typescript/index.d.ts",
   "source": "src/typescript/index.ts",
   "type": "module",
   "repository": {

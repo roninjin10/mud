@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Observable } from "rxjs";
+import type { Observable } from "rxjs";
 
 export function useObservableValue<T>(observable: Observable<T>, defaultValue: T): T;
 

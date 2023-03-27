@@ -1,14 +1,5 @@
-import {
-  Component,
-  ComponentValue,
-  defineQuery,
-  EntityIndex,
-  getComponentValue,
-  Has,
-  isComponentUpdate,
-  Metadata,
-  Schema,
-} from "@latticexyz/recs";
+import type { Component, ComponentValue, EntityIndex, Metadata, Schema } from "@latticexyz/recs";
+import { defineQuery, getComponentValue, Has, isComponentUpdate } from "@latticexyz/recs";
 import { useEffect, useState } from "react";
 
 export function useComponentValue<S extends Schema>(

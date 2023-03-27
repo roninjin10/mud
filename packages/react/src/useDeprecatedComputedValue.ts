@@ -1,4 +1,4 @@
-import { IComputedValue } from "mobx";
+import type { IComputedValue } from "mobx";
 import { useEffect, useState } from "react";
 
 /** @deprecated See https://github.com/latticexyz/mud/issues/339 */

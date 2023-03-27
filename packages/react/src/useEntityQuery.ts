@@ -1,4 +1,5 @@
-import { defineQuery, QueryFragment } from "@latticexyz/recs";
+import type { QueryFragment } from "@latticexyz/recs";
+import { defineQuery } from "@latticexyz/recs";
 import { useEffect, useMemo, useState } from "react";
 import { useDeepMemo } from "./utils/useDeepMemo";
 import isEqual from "fast-deep-equal";
