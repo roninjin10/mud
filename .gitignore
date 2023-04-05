@@ -1,7 +1,13 @@
-node_modules
-.eslintcache
 .DS_STORE
+
+node_modules
+package-lock.json
+yarn.lock
+
+.eslintcache
 .parcel-cache
 .docs
 lerna-debug.log
 .retype
+.env
+yarn-error.log
